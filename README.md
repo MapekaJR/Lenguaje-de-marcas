@@ -1,2 +1,2 @@
 # Lenguaje-de-marcas
-esta es mi polla
+esta es mi clase

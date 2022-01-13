@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+
+<body>
+    <form>
+        <h1 style="text-align: center;">Formulario</h1>
+        <div style="padding-left: 10px;">
+            <label for="ciudad">Ciudad:</label><br>
+            <textarea name="ciudad" cols="21" rows="5"></textarea><br>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" value=""><br>
+
+            <label for="nombre">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos" value=""><br>
+
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" value=""><br>
+
+            <label for="Telefono">Telefono:</label><br>
+            <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+
+            <label for="otros">Otros:</label><br>
+            <textarea name="otros" cols="21" rows="5"></textarea><br>
+
+            <label for="Numadultos">Num adultos:</label><br>
+            <input type="number" min="0"><br>
+
+            <label for="Regimen">Regimen alojamiento:</label><br>
+
+            <input type="radio" id="desayuno" name="regimen" value="desayuno">
+            <label for="desayuno">Desayuno</label><br>
+
+            <input type="radio" id="mediapension" name="regimen" value="mediapension">
+            <label for="mediapension">Media pension</label><br>
+
+            <input type="radio" id="pensioncompleta" name="regimen" value="pensioncompleta">
+            <label for="pensioncompleta">Pension Completa</label><br>
+
+            <input type="radio" id="todoincluido" name="regimen" value="todoincluido">
+            <label for="todoincluido">Todo incluido</label>
+        </div>
+
+        </div>
+
+        <div style="padding-left: 43%;">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+            <button type="button" value="Volver"><a href="iniciotour.html"
+                    style="text-decoration: none; color: black;">Volver</a></button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,4 +1,6 @@
-<!ELEMENT futbol (equipos)>
+<!ELEMENT futbol (vacio, noVacio, equipos)>
+    <!ELEMENT vacio EMPTY> <!--La etiqueta <vacio/> es una etiqueta similar a br de html se pone este elemento (EMPTY) -->
+    <!ELEMENT noVacio (#PCDATA)>
     <!ELEMENT equipos (equipo)>
         <!ELEMENT equipo (nombre, copas, jugadores, equipacion, partidos, estadio)>
             <!ELEMENT nombre (#PCDATA)>

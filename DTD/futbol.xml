@@ -2,6 +2,8 @@
 <!DOCTYPE futbol SYSTEM "futbol.dtd">
 
 <futbol>
+<vacio/>
+<noVacio>Dato</noVacio>
     <equipos>
         <equipo>
             <nombre>Betis</nombre>

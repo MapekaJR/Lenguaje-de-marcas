@@ -1,0 +1,12 @@
+<!ELEMENT note (to,from,heading,body)>
+    <!ELEMENT to (#PCDATA)><!--#PCDATA es como un string vaya un cuadro de texto -->
+    <!ELEMENT from (email, nombre)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (mensaje, fecha)><!--Dentro de body hay mas etiquetas por lo cual se meten en el parentesis-->
+        <!ELEMENT mensaje (#PCDATA)>
+        <!ELEMENT fecha (dia, mes, anno)>
+            <!ELEMENT dia (#PCDATA)>
+            <!ELEMENT mes (#PCDATA)>
+            <!ELEMENT anno (#PCDATA)>

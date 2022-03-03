@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "1dtd.dtd"><!--Hay que unir en esta etiqueta el documento dtd
+                                    en el otro no hace falta poner nada -->
+
+<note>
+    <to>Pedro</to>
+    <from>
+        <email>a@a.com</email>
+        <nombre>Angela</nombre>
+    </from>
+    <heading>Recordatorio</heading>
+    <body>
+        <mensaje>Este es el mensaje</mensaje>
+        <fecha>
+            <dia>12</dia>
+            <mes>Marzo</mes>
+            <anno>2022</anno>
+        </fecha>
+    </body>
+</note>

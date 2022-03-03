@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejerciciosrestricciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restricciones.xsd">
+    <ejercicio>
+        <tlf>+34895475155</tlf>
+        <dni>30101010A</dni>
+        <palabra>maldito</palabra>
+        <correo>pepe87@gmail.com</correo>
+    </ejercicio>
+</ejerciciosrestricciones>

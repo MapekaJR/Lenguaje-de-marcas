@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<consolas>
+    <plataformas>
+        <nombre>PS</nombre>
+        <nombre>PS</nombre>
+        <nombre>XBOX</nombre>
+    </plataformas>
+    <version>
+        <numero>4</numero>
+        <numero>5</numero>
+        <numero>2021</numero>
+    </version>
+</consolas>

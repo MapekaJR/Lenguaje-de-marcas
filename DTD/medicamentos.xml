@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE medicamentos SYSTEM "medicamentos.dtd">
+<medicamentos>
+    <medicamento>
+        <nombre id="A1">
+            <generico></generico>
+            <comercial></comercial>
+        </nombre>
+        <administracion tipo="Oral">8h</administracion>
+        <dosis>50mg</dosis>
+    </medicamento>
+</medicamentos>

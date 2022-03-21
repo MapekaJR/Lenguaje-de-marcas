@@ -6,6 +6,7 @@
             <generico></generico>
             <comercial></comercial>
         </nombre>
+<!-- No se pueden hacer restricciones en DTD-->
         <administracion tipo="Oral">8h</administracion>
         <dosis>50mg</dosis>
     </medicamento>
